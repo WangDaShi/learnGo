@@ -1,9 +1,7 @@
 package main
 
-import (
-	"math/cmplx"
-)
+import "fmt"
 
 func main() {
-	//1q29ve
+	fmt.Println("helloworld")
 }
