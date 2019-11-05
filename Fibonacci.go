@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//learn the concept of enclouser
 func fibonacci() func() int {
 	a := 0
 	b := 1
