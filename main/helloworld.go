@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	loatr.TestInterface()
+	//loatr.TestInterface()
+	loatr.TestAssert()
 }
