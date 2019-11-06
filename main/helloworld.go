@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	loatr.Print()
+	loatr.TestInterface()
 }
