@@ -2,12 +2,17 @@ package main
 
 import (
 	"fmt"
-
-	"../loatr"
 )
 
 func main() {
-	loatr.TestGo()
+	//loatr.TestChannel()
+	c := make(chan int, 3)
+	c <- 1
+	c <- 2
+	c <- 3
+	fmt.Println(<-c)
+	fmt.Println(<-c)
+	fmt.Println(<-c)
 }
 
 type sss struct {
